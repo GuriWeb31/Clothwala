@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Chewy&family=Ephesis&family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Modak&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body {
+    font-family: "Instrument Sans", sans-serif;
+    background-color: #f1f1f1;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+.swiper-wrapper {
+    margin-top: 12px;
+    margin-bottom: 68px;
+}
+.swiper-button-prev, .swiper-button-next {
+    color: #000000 !important;
+    display: none !important;
+}
+.swiper-pagination-bullet-active {
+    opacity: var(--swiper-pagination-bullet-opacity, 1);
+    background: #000000 !important;
+    border: 1px solid #b9b9b9 !important;
+    padding: 2px !important;
+    width: 4% !important;
+    border-radius: 0 !important;
+}
+
+.swiper-pagination-bullet {
+    opacity: var(--swiper-pagination-bullet-opacity, 1);
+    background: #000000 !important;
+    border: 1px solid #b9b9b9 !important;
+    padding: 2px !important;
+    width: 4% !important;
+    border-radius: 0 !important;
+}
+ @keyframes float {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+  }
+
+  .animate-float {
+    animation: float 3s ease-in-out infinite;
+  }
