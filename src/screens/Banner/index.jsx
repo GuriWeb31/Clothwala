@@ -4,6 +4,8 @@ import male1 from '../../assets/images/male1.svg';
 import girl2 from '../../assets/images/girl2.svg';
 import mal2 from '../../assets/images/mal2.svg';
 import girl3 from '../../assets/images/girl3.svg';
+import Stack from '@mui/material/Stack';
+import Button from '@mui/material/Button';
 
 const Banner = () => {
   return (
@@ -13,7 +15,7 @@ const Banner = () => {
                 <div className='text-start rounded-[32px] bg-white p-6'>
                     <h1 className='text-[52px] font-semibold leading-16 pt-5'>Unleash Your Style Shop the Latest Trends</h1>
                     <p className='mt-5 text-[16px]'>Discover the latest trends & express your style effortlessly. Shop exclusive collection with premium designs, just for you!</p>
-                    <button className='bg-black px-8 rounded-full py-2 mt-5 text-white'>Shop Now</button>
+                    <Button variant="contained" sx={{backgroundColor:'black', borderRadius:6, px:4 , mt:2}}>Shop Now</Button>
 
                      <div className='review-banner pt-10'>
                         <div><h2 className='text-[28px] font-medium'>25 Million+</h2></div>
